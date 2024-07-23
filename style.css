@@ -3,7 +3,6 @@ body {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
-  gap: 96px;
   margin: 48px 196px;
 }
 
@@ -71,7 +70,7 @@ body {
   h2 {
     text-align: center;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #1f2937;
   }
   .card-wrapper {
@@ -92,5 +91,22 @@ body {
         text-align: center;
       }
     }
+  }
+}
+
+.layer-2 {
+  background-color: #e5e7eb;
+  padding-block: 96px;
+  p {
+    font-size: 36px;
+    margin: 0;
+    color: #1f2937;
+    margin-block-end: 16px;
+  }
+  span {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
   }
 }
